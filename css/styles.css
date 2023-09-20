@@ -21,14 +21,6 @@ a {
 
 h1 {
     color: var(--white);
-    width: 496px; 
-    text-align: center;
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; /* 107.143% */
-    letter-spacing: 1.12px; 
 }
 
 h2 {
@@ -45,61 +37,22 @@ button:hover {
 
 .header-web {
     color: var(--iris);
-    width: 44px; 
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase; 
 }
 
 .header-studio {
     color: var(--navyblue);
-    width: 71px; 
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase; 
 }
 
 .footer-web {
-    color: var(--iris);
-    width: 44px; 
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase; 
+    color: var(--iris); 
 }
 
 .footer-studio {
     color: var(--cloud);
-    width: 71px; 
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase; 
 }
 
 .footer-body {
     color: var(--cloud);
-    width: 264px;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px; 
 }
 
 .nav-item a:hover {
@@ -140,9 +93,6 @@ footer {
 .button-order-service {
     background-color: var(--iris);
     color: var(--white);
-    border-radius: 4px;
-    border-color: var(--iris);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
 }
 
 .button-order-service:hover {
@@ -152,13 +102,6 @@ footer {
 
 .section-1-feature-body {
     color: var(--slate);
-    width: 264px; 
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px; 
 }
 
 /* PORTFOLIO STYLES */
