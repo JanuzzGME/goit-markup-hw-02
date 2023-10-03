@@ -31,28 +31,12 @@ h3 {
     color: var(--navyblue);
 }
 
-button:hover {
-    cursor: pointer;
-}
-
-.header-web {
+.logo {
     color: var(--iris);
 }
 
-.header-studio {
+.logo-dark {
     color: var(--navyblue);
-}
-
-.footer-web {
-    color: var(--iris); 
-}
-
-.footer-studio {
-    color: var(--cloud);
-}
-
-.footer-body {
-    color: var(--cloud);
 }
 
 .nav-item a:hover {
@@ -75,19 +59,31 @@ button:hover {
     color: var(--ocean);
 }
 
-footer {
+/* FOOTER */
+
+.page-footer {
     background-color: var(--navyblue);
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
 }
 
-/* MAIN PAGE STYLES */
+.logo-light {
+    color: var(--cloud);
+}
+
+.page-footer-body {
+    color: var(--cloud);
+}
+
+/* HERO */
+
 .hero {
     background-color: var(--navyblue);
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0; 
+}
+
+
+/* BUTTON */
+
+button:hover {
+    cursor: pointer;
 }
 
 .button-order-service {
@@ -99,9 +95,3 @@ footer {
     background-color: var(--ocean);
     color: var(--white);
 }
-
-.section-1-feature-body {
-    color: var(--slate);
-}
-
-/* PORTFOLIO STYLES */

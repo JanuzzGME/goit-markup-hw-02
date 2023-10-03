@@ -6,18 +6,19 @@
         <meta name="description" content="WebStudio website">
         <meta charset="utf-8">
         <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap" rel="stylesheet"> 
     </head>
     <!-- BODY SECTION -->
     <body>
         <!-- HEADER SECTION -->
-        <header>
+        <header class="main-header">
             <!-- NAVIGATION -->
             <nav>
-                <a href="./studio.html"><span class="header-web">WEB</span><span class="header-studio">STUDIO</span></a>
+                <a href="./index.html" class="logo">WEB<span class="logo-dark">STUDIO</span></a>
                 <ul>
-                    <li class="nav-item"><a href="./studio.html">Studio</a></li>
+                    <li class="nav-item"><a href="./index.html">Studio</a></li>
                     <li class="nav-item"><a href="./portfolio.html">Portfolio</a></li>
-                    <li class="nav-item"><a href="./studio.html">Contacts</a></li>
+                    <li class="nav-item"><a href="./index.html">Contacts</a></li>
                 </ul>
             </nav>
             <!-- CONTACTS & EMAIL -->
@@ -33,61 +34,79 @@
         <main>
             <!-- HERO SECTION -->
             <section class="hero">
-                <h1>
-                    Effective Solutions
+                <h1 class="hero_title">
+                    Effective Solutions<br/>
                     for Your Business
                 </h1>
-                <button class="button-order-service" type="button">Order Service</button>
+                <button class="button_order-service" type="button">Order Service</button>
             </section>
 
             <!-- SECTION 1 -->
-            <section class="section-1">
+            <section class="values">
                 <h2 hidden>Feature</h2>
-                    <ul>
-                        <li class="section-1-feature">
-                            <h3>Strategy</h3>
-                            <p class="section-1-feature-body">Our goal is to identify the business
-                            problem to walk- away with the
-                            perfect and creative solution.</p>
+                    <ul class="values_list">
+                        <li class="values_list_item">
+                            <h3 class="values_list_item_title">
+                                Strategy
+                            </h3>
+                            <p class="values_list_item_body">
+                                Our goal is to identify the business<br/>
+                                problem to walk away with the<br/>
+                                perfect and creative solution.
+                            </p>
                         </li>
-                        <li class="section-1-feature">
-                            <h3>Punctuality</h3>
-                            <p class="section-1-feature-body">Bring the key message to the
-                            brand's audienc-e for the best price
-                            within the shortest possible time.</p>
+                        <li class="values_list_item">
+                            <h3 class="values_list_item_title">
+                                Punctuality
+                            </h3>
+                            <p class="values_list_item_body">
+                                Bring the key message to the<br/>
+                                brand's audience for the best price<br/>
+                                within the shortest possible time.
+                            </p>
                         </li>
-                        <li class="section-1-feature">
-                            <h3>Diligence</h3>
-                            <p class="section-1-feature-body">Research and confirm brands that
-                            present the str-ongest digital growth
-                            opportunities and minimize risk.</p>
+                        <li class="values_list_item">
+                            <h3 class="values_list_item_title">
+                                Diligence
+                            </h3>
+                            <p class="values_list_item_body">
+                                Research and confirm brands that<br/>
+                                present the strongest digital growth<br/>
+                                opportunities and minimize risk.
+                            </p>
                         </li>
-                        <li class="section-1-feature">
-                            <h3>Technologies</h3>
-                            <p class="section-1-feature-body">Design practice focused on digital
-                            experiences. We bring forth a deep
-                            passion for problem-solving.</p>
+                        <li class="values_list_item">
+                            <h3 class="values_list_item_title">
+                                Technologies
+                            </h3>
+                            <p class="values_list_item_body">
+                                Design practice focused on digital<br/>
+                                experiences. We bring forth a deep<br/>
+                                passion for problem-solving.
+                            </p>
                         </li>
                     </ul>
             </section>
 
             <!-- SECTION 2 -->
-            <section class="section-2">
-                <h2>What are we doing</h2>
-                <ul>
-                    <li>
+            <section class="what-are-we-doing">
+                <h2 class="what-are-we-doing_title">
+                    What are we doing
+                </h2>
+                <ul class="what-are-we-doing_list">
+                    <li class="what-are-we-doing_list_item">
                         <img 
                             src="./images/computer_monitor_with_graph.jpg"
                             alt="computer_monitor_with_graph"
                             width="300">
                     </li>
-                    <li>
+                    <li class="what-are-we-doing_list_item">
                         <img 
                             src="./images/mobile_phone-with_mutliple_screens.jpg"
                             alt="mobile_phone-with_mutliple_screens"
                             width="300">
                     </li>
-                    <li>
+                    <li class="what-are-we-doing_list_item">
                         <img   
                             src="./images/hand_holding_phone_infront_of_laptop.jpg"
                             alt="hand_holding_phone_infront_of_laptop"
@@ -97,48 +116,50 @@
             </section>
 
             <!-- SECTION 3 -->
-            <section class="section-3">
-                <h2>
+            <section class="our-team">
+                <h2 class="our-team_title">
                     Our Team
                 </h2>
-                <ul>
-                    <li class="section-3-team-member">
+                <ul class="our-team_list">
+                    <li class="our-team_member">
                         <img 
                             src="./images/Mark_Guerrero_image.jpg"
                             alt="Mark_Guerrero_image">
-                        <h3>Mark Guerrero</h3>
-                        <p class="section-3-team-body">Product Designer</p>
+                        <h3 class="our-team_member_name">Mark Guerrero</h3>
+                        <p class="our-team_member_position">Product Designer</p>
                     </li>
-                    <li class="section-3-team-member">
+                    <li class="our-team_member">
                         <img 
                             src="./images/Tom_Ford_image.jpg"
                             alt="Tom_Ford_image">
-                        <h3>Tom Ford</h3>
-                        <p class="section-3-team-body">Frontend Developer</p>
+                        <h3 class="our-team_member_name">Tom Ford</h3>
+                        <p class="our-team_member_position">Frontend Developer</p>
                     </li>
-                    <li class="section-3-team-member">
+                    <li class="our-team_member">
                         <img 
                             src="./images/Camila_Garcia_image.jpg"
                             alt="Camila_Garcia_image">
-                        <h3>Camila Garcia</h3>
-                        <p class="section-3-team-body">Marketing</p>
+                        <h3 class="our-team_member_name">Camila Garcia</h3>
+                        <p class="our-team_member_position">Marketing</p>
                     </li>
-                    <li class="section-3-team-member">
+                    <li class="our-team_member">
                         <img
                             src="./images/Daniel_Wilson_image.jpg"
                             alt="Daniel_Wilson_image">
-                        <h3>Daniel Wilson</h3>
-                        <p class="section-3-team-body">UI Designer</p>
+                        <h3 class="our-team_member_name">Daniel Wilson</h3>
+                        <p class="our-team_member_position">UI Designer</p>
                     </li>
                 </ul>
             </section>
         </main>
         <!-- FOOTER SECTION -->
-        <footer>
-            <a href="./studio.html"><span class="footer-web">WEB</span><span class="footer-studio">STUDIO</span></a>
-            <p class="footer-body">Increase the flow of customers and
-            sales for your business with digital
-            marketing & growth solutions.</p>
+        <footer class="page-footer">
+            <a href="./index.html" class="logo">WEB<span class="logo-light">STUDIO</span></a>
+            <p class="page-footer_body">
+                Increase the flow of customers and<br/>
+                sales for your business with digital<br/>
+                marketing & growth solutions.
+            </p>
         </footer>
     </body>
 </html>
