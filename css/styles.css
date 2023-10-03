@@ -39,15 +39,20 @@ h3 {
     color: var(--navyblue);
 }
 
-.nav-item a:hover {
-    cursor: pointer;
-    color: var(--ocean);
+/* NAVIGATION */
+
+.nav-item {
+    color: var(--navyblue);
 }
 
+.nav-item a:hover, 
 .nav-item a:focus {
     cursor: pointer;
     color: var(--ocean);
 }
+
+
+/* ADDRESS & CONTACTS */
 
 .address-contacts a:hover {
     cursor: pointer;
@@ -69,7 +74,7 @@ h3 {
     color: var(--cloud);
 }
 
-.page-footer-body {
+.page-footer_body {
     color: var(--cloud);
 }
 
