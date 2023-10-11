@@ -1,102 +1,105 @@
 /* COLOR VARIABLES */
 :root {
-    --iris: #4D5AE5;
-    --ocean: #404BBF;
-    --navyblue: #2E2F42;
-    --green: #31D0AA;
-    --slate: #434455;
-    --light-slate: #8E8F99;
-    --cornflower: #E7E9FC;
-    --cloud: #F4F4FD;
-    --navyblue-modal: rgba(46, 47, 66, 0.40);
-    --grey: rgba(46, 47, 66, 0.70);
-    --white: #fff;
-    --dairy: #FCFCFC;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navyblue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
 }
 
 /* GLOBAL STYLES*/
 a {
-    color: var(--navyblue);
+  color: var(--navyblue);
 }
 
 h1 {
-    color: var(--white);
+  color: var(--white);
 }
 
 h2 {
-    color: var(--navyblue);
+  color: var(--navyblue);
 }
 
 h3 {
-    color: var(--navyblue);
+  color: var(--navyblue);
 }
 
+/* LOGO */
+
 .logo {
-    color: var(--iris);
+  color: var(--iris);
 }
 
 .logo-dark {
-    color: var(--navyblue);
+  color: var(--navyblue);
 }
 
 /* NAVIGATION */
 
 .nav-item {
-    color: var(--navyblue);
+  color: var(--navyblue);
 }
 
-.nav-item a:hover, 
+.nav-item a:hover,
 .nav-item a:focus {
-    cursor: pointer;
-    color: var(--ocean);
+  cursor: pointer;
+  color: var(--ocean);
 }
-
 
 /* ADDRESS & CONTACTS */
 
 .address-contacts a:hover {
-    cursor: pointer;
-    color: var(--ocean);
+  cursor: pointer;
+  color: var(--ocean);
 }
 
 .address-contacts a:focus {
-    cursor: pointer;
-    color: var(--ocean);
+  cursor: pointer;
+  color: var(--ocean);
 }
 
 /* FOOTER */
 
 .page-footer {
-    background-color: var(--navyblue);
+  background-color: var(--navyblue);
 }
 
 .logo-light {
-    color: var(--cloud);
+  color: var(--cloud);
 }
 
 .page-footer_body {
-    color: var(--cloud);
+  color: var(--cloud);
 }
 
 /* HERO */
 
 .hero {
-    background-color: var(--navyblue);
+  background-color: var(--navyblue);
 }
 
+.hero_title {
+}
 
-/* BUTTON */
+/* ORDER SERVICE */
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .button-order-service {
-    background-color: var(--iris);
-    color: var(--white);
+  background-color: var(--iris);
+  color: var(--white);
 }
 
 .button-order-service:hover {
-    background-color: var(--ocean);
-    color: var(--white);
+  background-color: var(--ocean);
+  color: var(--white);
 }
